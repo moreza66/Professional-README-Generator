@@ -1,4 +1,4 @@
-# Readme Generator
+# Professional readme generator
       
   #### Table of Contents
   1. [Project Description](#project-description)
@@ -10,15 +10,15 @@
   7. [License](#license)
   8. [Questions](#questions)
   ## Project Description
-  * an automated Readme.md generator that uses the Inquirer NPM, file system (FS), and Node.JS to Automatically creat README    files
+  * An automated README.md generator that uses the Inquirer NPM, File System (fs), and Node.js to automatically creat Readme files
   ## Installation Instructions
-  * the readme generator requires installation of Node.js. User must also have access to a IDE such as Visual Studio Code with access to the terminal or access to GitBash/command line Interface to rub Node.Inquirer NPM must also be installed.
+  * The Readme Generator requires installation of Node.js. Users must also have access to IDE such as Visual Studio Code with access to the terminal or access to gitbash/command line interface to run Node.Inquirer NPM also be installed
   ## Usage Information
-  * to use the Readme Generator run:"NODE index.js" in the terminal and answer the prompts. After the prompts are answered, open the new Readdme=
+  * To use the Readme Generator run : "Node Index.js" in the terminal, and answer the prompt. After the prompt are answered, open the new Readme.md created in the current working directory, and preview the Readme
   ## Contributor Guidelines
   * Pull requests are welcome.
   ## Test Instructions
-  * Please make sure to update tests as appropiate
+  * Please make sure to update tests as appropriate
   ## License
   * licensed under the GNU-General-Public,Common-Development-and Distribution
   ## Questions
