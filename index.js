@@ -1,8 +1,6 @@
 //node modules
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require("util");
-const writeFileAsync = util.promisify(fs.writeFile);
 
 
 // this is the function for generating readme file
@@ -119,7 +117,7 @@ inquirer
         }
     },
 
-      //list of license
+     //checkbox that allows license choice
       {
         type: 'checkbox',
         name: 'license',
@@ -161,33 +159,9 @@ inquirer
         }
       },
 
-   
-
   ])
   .then(answers => {
     const readme = generateREADME(answers);
-
-//       const test = 
-//          `
-// ## Title 
-// ${data.name.toUpperCase()}
-// ## Description 
-// ${data.description}
-// ## Usage 
-// ${data.Usage}
-// ## Installation 
-// ${data.Installation}
-// ## Contributing 
-// ${data.Contributing.toUpperCase()}
-// ## Tests 
-// ${data.Tests}
-// ## license 
-// ${data.license}
-// ##git
-// ${data.git}
-// ##email
-// ${data.email}
-// `;
       
     fs.writeFile('README.md',readme , err => {
     err ? console.log(err) : console.log('Success!')
