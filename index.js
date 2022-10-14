@@ -1,6 +1,7 @@
 //node modules
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 
 // this is the function for generating readme file
@@ -32,7 +33,7 @@ function generateREADME(answers) {
   ## Questions
   * For additional help or questions about collaboration, please reach out to ${answers.email}
   * Follow me on Github at [${answers.git}](http://github.com/${answers.git})`;
-    
+ 
   }
 //inquirer to generate questions
 inquirer

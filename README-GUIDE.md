@@ -22,3 +22,5 @@ Once software is downloaded and Node packages are initialized, it's time to get 
 Within the directory for this project, initialize prompts using the command "node index.js".
 From there, simply enter the necessary information for your project, and voila! A new README file will be generated and placed into the 'dist' folder.
 Not sure what to input for a certain section? Follow the guidelines outlined below.
+
+Deployed Link for watching the video : https://drive.google.com/file/d/140zO8eXPOpDIGpj6iNv3BdHs3nKdD3gY/view?usp=sharing
